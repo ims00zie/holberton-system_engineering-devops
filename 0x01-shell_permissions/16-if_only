@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l hello | grep -i guillaume | sudo chown betty hello
+chown --from guillaume:betty hello
